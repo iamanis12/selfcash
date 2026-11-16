@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F9FAF7">
+  <meta name="description" content="Read the Selfcash Privacy Policy covering local financial records, Google Sign-In, Google Drive App Data backup, data storage, security and user choices.">
+  <title>Privacy Policy — Selfcash</title>
+  <link rel="icon" type="image/png" href="selfcash-brand-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Selfcash home"><img src="selfcash-brand-icon.png" alt="Selfcash logo"><span>Selfcash<small>PERSONAL FINANCE</small></span></a>
+      <nav id="main-navigation" class="nav-links" data-nav-menu aria-label="Main navigation">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html">Home</a>
+        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-secondary" href="index.html">Back to home</a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-navigation">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="legal-hero">
+      <div class="container legal-heading">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> Your information, explained</div>
+        <h1>Selfcash Privacy Policy</h1>
+        <p>This policy explains what information the Selfcash Android app uses, where your financial records are stored, how Google Sign-In and Google Drive App Data are used, and what choices are available in the current app version.</p>
+        <div class="legal-meta"><span class="meta-pill">Effective date: 16 November 2026</span><span class="meta-pill">App: Selfcash for Android</span><span class="meta-pill">Developer: Anisur Rahman</span></div>
+      </div>
+    </section>
+
+    <div class="container legal-layout">
+      <aside class="legal-toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <a href="#who-we-are">1. Who we are</a>
+        <a href="#information">2. Information handled</a>
+        <a href="#local-storage">3. Local storage</a>
+        <a href="#google-sign-in">4. Google Sign-In</a>
+        <a href="#google-drive">5. Google Drive backup</a>
+        <a href="#sharing">6. Sharing &amp; third parties</a>
+        <a href="#security">7. Security</a>
+        <a href="#retention">8. Retention &amp; deletion</a>
+        <a href="#your-choices">9. Your choices</a>
+        <a href="#children">10. Children</a>
+        <a href="#changes">11. Policy changes</a>
+        <a href="#contact">12. Contact</a>
+      </aside>
+
+      <div class="legal-content">
+        <section class="legal-section" id="who-we-are">
+          <h2>1. Who we are</h2>
+          <p>Selfcash is a personal finance record-keeping application for Android. It helps you record income, expenses, account balances, transfers, receivables, payables and pocket-money activity. Selfcash is not a bank, payment service, lender, credit provider or financial adviser.</p>
+          <p><strong>App developer and privacy contact:</strong> Anisur Rahman<br><strong>Email:</strong> <a href="mailto:iff575911@gmail.com">iff575911@gmail.com</a></p>
+          <p>This policy describes the current app implementation reviewed for the Selfcash website. If the app's data practices change, this policy must be updated before those changes are released.</p>
+        </section>
+
+        <section class="legal-section" id="information">
+          <h2>2. Information Selfcash handles</h2>
+          <p>Selfcash handles information that you provide in the app and limited Google account information needed for sign-in and backup association. The exact records depend on the features you use.</p>
+          <table class="data-table">
+            <thead><tr><th>Information</th><th>Examples of fields</th><th>Why it is used</th></tr></thead>
+            <tbody>
+              <tr><td>Google account profile</td><td>Display name, email address and profile photo URL (when supplied by Google). A Google ID token is received during sign-in to establish the session and read profile details.</td><td>Sign-in, showing your profile and associating your backup with the same account.</td></tr>
+              <tr><td>Accounts &amp; balances</td><td>Account name, account type, balance, optional account number, parent category and enabled status.</td><td>Maintaining cash, bank and custom account records.</td></tr>
+              <tr><td>Categories</td><td>Category name, category type, parent category and enabled/system status.</td><td>Organising balance groups, income sources and expense sources.</td></tr>
+              <tr><td>Transactions</td><td>Transaction type, amount, date, description, source/target account, category and related person reference.</td><td>Recording income, expenses and transfers and generating history/insights.</td></tr>
+              <tr><td>People records</td><td>Name, optional phone number, receivable/payable type, total amount, outstanding amount and optional note.</td><td>Tracking money owed to you or money you owe.</td></tr>
+              <tr><td>Pocket records</td><td>Top-up or expense type, amount, date, description and creation time.</td><td>Maintaining Pocket Mode activity and balance.</td></tr>
+              <tr><td>App preferences</td><td>Language, currency, hide-balance preference, App Lock/biometric preferences and backup status/timestamps.</td><td>Remembering your chosen app settings and showing backup state.</td></tr>
+            </tbody>
+          </table>
+          <p>Selfcash does not ask for your bank username, bank password, payment-card number or online banking credentials. Bank account names and optional account numbers that you type into Selfcash are stored as app records; Selfcash does not connect to your bank to fetch transactions.</p>
+        </section>
+
+        <section class="legal-section" id="local-storage">
+          <h2>3. Where your information is stored</h2>
+          <h3>On your Android device</h3>
+          <p>The app's financial records are stored in a local Room database in Selfcash's private app storage. App preferences and sign-in session details are stored locally using Android DataStore. The app does not need a separate Selfcash-operated financial database to keep these records.</p>
+          <p>Monthly reports can be generated as PDF files and saved to a location you choose through Android's document/save interface. A PDF that you save or share is then handled by the destination you select.</p>
+          <h3>Android system backup</h3>
+          <p>The current Android manifest enables Android's app backup capability. The supplied app source does not define explicit include/exclude entries in its Android backup-rule files. Android operating-system backup or device-transfer behaviour may therefore apply according to the Android version, device configuration and Google/device backup settings. This is separate from Selfcash's own Google Drive App Data backup.</p>
+        </section>
+
+        <section class="legal-section" id="google-sign-in">
+          <h2>4. Google Sign-In</h2>
+          <p>Selfcash uses Google's Android sign-in/credential flow. When you choose a Google account, Google provides account information such as your email address and display name; a profile photo URL may also be available. The app uses these details to display your account profile and identify the Selfcash session.</p>
+          <p>The current app uses the Google account email as its backup-matching identifier. The sign-in ID token is used during the sign-in flow; the reviewed code extracts the profile photo URL from it and does not use that token as a financial record or include it in the Selfcash backup payload.</p>
+          <p>Google processes sign-in information under Google's own privacy terms. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+        </section>
+
+        <section class="legal-section" id="google-drive">
+          <h2>5. Google Drive App Data backup</h2>
+          <p>Google Drive backup is an optional, separately authorised feature. It runs only after you connect Google Drive and grant Selfcash the requested Drive App Data permission.</p>
+          <h3>Permission requested</h3>
+          <p><code class="inline-code">https://www.googleapis.com/auth/drive.appdata</code></p>
+          <p>This is the Google Drive app-data scope. Selfcash uses it to access its app-specific <code class="inline-code">appDataFolder</code> area. The reviewed code searches for a file named <code class="inline-code">selfcash_backup.json</code>, creates it when needed, updates the existing Selfcash backup, and downloads it for restore. It does not use this scope to list or manage your ordinary Drive documents, photos or other user files.</p>
+          <h3>What the backup contains</h3>
+          <ul>
+            <li>Account records, including account names, types, balances and optional account numbers.</li>
+            <li>Category records and their category/parent information.</li>
+            <li>Ledger entries, including transaction type, amount, date, description and account/category/person references.</li>
+            <li>People records for receivables and payables, including names, optional phone numbers, amounts and notes.</li>
+            <li>Pocket entries, including top-ups and expenses, with amounts, dates and descriptions.</li>
+            <li>Backup metadata such as the Google-account matching identifier, app/schema version and export timestamp.</li>
+          </ul>
+          <h3>Automatic backup and restore</h3>
+          <p>After Drive is connected, Selfcash can schedule a background backup when local financial data changes. Android WorkManager runs the task when its network requirement and Android scheduling conditions are met. A backup may be delayed or fail if the device is offline, Google authorisation needs attention, or Android pauses background work. Check the backup status shown in the app before relying on a backup.</p>
+          <p>Restore downloads the Selfcash backup from the same Google account and replaces the financial records on the device after validation. The app includes checks intended to avoid restoring a backup associated with a different Google account.</p>
+          <div class="important-box">
+            <strong>Important: current backup files are JSON, not separately encrypted by Selfcash.</strong>
+            <p>The reviewed backup code serialises the backup payload as JSON and uploads/downloads it through Google's HTTPS Drive API. It does not apply a separate Selfcash-controlled encryption layer to the JSON before upload. Do not describe the current backup as end-to-end encrypted. Google Drive's own security and account protections are governed by Google.</p>
+          </div>
+          <p>Google processes data stored in Drive under its own terms and privacy policy. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> and <a href="https://developers.google.com/drive/api/guides/appdata" target="_blank" rel="noopener noreferrer">Google Drive app data documentation</a>.</p>
+        </section>
+
+        <section class="legal-section" id="sharing">
+          <h2>6. Sharing and third-party services</h2>
+          <p>Selfcash does not sell your personal or financial records. In the source supplied for this review, no Selfcash-operated remote financial database, advertising SDK or analytics SDK was identified. Financial records are kept in the device's local database and, if you authorise it, the app sends a backup payload directly to Google Drive using Google's API.</p>
+          <p>Information is processed by Google when you use Google Sign-In or Google Drive backup. Android and your device manufacturer may also process app data through operating-system features such as device backup, biometric authentication and file saving. Their handling is subject to their own terms and settings.</p>
+          <p>If you choose to save or share a generated PDF using another app or service, that destination receives the file according to your action and the destination provider's practices.</p>
+        </section>
+
+        <section class="legal-section" id="security">
+          <h2>7. Security</h2>
+          <p>Selfcash uses Android's private app storage for its local database and preferences. The app also offers optional balance hiding, a five-digit App Lock PIN and biometric unlocking on supported devices. The current PIN implementation stores a salted password-derived verifier for new installations; biometric checks are handled by Android.</p>
+          <p>Drive API communication in the reviewed code uses HTTPS. However, the current backup JSON is not separately encrypted by Selfcash before it is stored in Drive. Protect your Android device and Google account, use a device screen lock, and do not share your account credentials.</p>
+          <p>No method of storage or transmission can be guaranteed to be completely secure. Keep your app and Android system up to date and check that backups have completed before changing devices or removing local app data.</p>
+        </section>
+
+        <section class="legal-section" id="retention">
+          <h2>8. Data retention and deletion</h2>
+          <h3>Local records</h3>
+          <p>Local financial records remain in the app's private database until they are removed by an available app/device operation or the app's data is cleared/uninstalled. Clearing app data or uninstalling Selfcash can remove local records. Keep a current backup before doing so.</p>
+          <h3>Google Drive backup</h3>
+          <p>The Selfcash backup file remains in the connected Google account's app-specific Drive data area until it is replaced or deleted through a supported operation. The current app source reviewed for this policy does not expose a working in-app control to delete the cloud backup or to delete the Selfcash account.</p>
+          <div class="important-box">
+            <strong>Current-version limitation</strong>
+            <p>The Settings screen in the supplied app source labels “Delete Account”, “Delete All Data” and “Export All Data” as “Coming soon” and states that these actions are not active yet. Do not rely on those controls as available deletion features in the current version. Contact the developer for help or clarification before entering information that you may later need to remove.</p>
+          </div>
+          <p>Signing out should not be treated as deleting your financial database or an existing Drive backup. Revoking Selfcash's Google access prevents future access after revocation, but it does not necessarily delete a backup that is already stored in your Google account.</p>
+        </section>
+
+        <section class="legal-section" id="your-choices">
+          <h2>9. Your choices and controls</h2>
+          <ul>
+            <li><strong>Google sign-in:</strong> choose the Google account you want to use for your Selfcash session.</li>
+            <li><strong>Drive backup permission:</strong> grant the Drive App Data scope when connecting backup. Without the required authorisation, Selfcash cannot read or write its Drive App Data backup.</li>
+            <li><strong>Google access:</strong> review or revoke Selfcash's Google account connection at <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener noreferrer">Google Account connections</a>. Revoking access may stop backup/restore until you connect again; it does not itself guarantee deletion of an existing Drive backup.</li>
+            <li><strong>App privacy settings:</strong> use Hide Balances, App Lock and biometric options where available on your device.</li>
+            <li><strong>Monthly PDF:</strong> choose where to save a generated report, or cancel the save action.</li>
+            <li><strong>Questions or deletion requests:</strong> contact the developer using the details below. The current app version does not yet provide a self-service cloud-backup deletion control.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section" id="children">
+          <h2>10. Children's privacy</h2>
+          <p>Selfcash is a general personal finance record-keeping tool and is not designed as a service for children. If you believe a child has provided personal information through the app, contact the developer so the issue can be reviewed.</p>
+        </section>
+
+        <section class="legal-section" id="changes">
+          <h2>11. Changes to this policy</h2>
+          <p>This policy may be updated when the app's features, Google permissions, data practices or legal requirements change. The latest version will be published on this page, and the effective date at the top will be revised. Please review this page periodically.</p>
+        </section>
+
+        <section class="legal-section" id="contact">
+          <h2>12. Contact</h2>
+          <p>For questions about this policy, Google Drive backup, information handled by Selfcash or a data-related request, contact the developer:</p>
+          <p><strong>Anisur Rahman</strong><br>Selfcash Developer<br>Email: <a href="mailto:iff575911@gmail.com?subject=Selfcash%20Privacy%20Request">iff575911@gmail.com</a></p>
+          <div class="contact-card">
+            <a href="mailto:iff575911@gmail.com?subject=Selfcash%20Privacy%20Request"><span aria-hidden="true">✉</span> Email developer</a>
+            <a href="https://wa.me/8801402702253" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span> WhatsApp</a>
+            <a href="https://www.facebook.com/anisur.rahman.291116" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span> Facebook</a>
+          </div>
+        </section>
+        <p class="smallprint">This policy is written to describe the Selfcash source supplied for review. It is not legal advice. The developer should re-check this policy after material app updates and obtain legal advice where appropriate.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand"><a class="brand" href="index.html"><img src="selfcash-brand-icon.png" alt=""><span>Selfcash<small>PERSONAL FINANCE</small></span></a><p>Clear, personal records for the money you manage every day.</p></div>
+        <div class="footer-links"><a href="index.html">Home</a><a href="index.html#features">Features</a><a href="privacy.html">Privacy Policy</a><a href="mailto:iff575911@gmail.com">Contact</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Selfcash. All rights reserved.</span><span>Last updated: 16 November 2026</span></div>
+    </div>
+  </footer>
+</body>
+</html>
